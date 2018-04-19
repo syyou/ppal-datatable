@@ -1,0 +1,157 @@
+/** Note: affix blade top **/
+body {
+  background: url('../images/#.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+/* Note: affix blade top */
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.affix + .container-fluid {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.affix-body {
+  background-color:deepskyblue;
+  color:#fff;
+  height:160px;
+}
+.affix-image-add {
+  padding: 15px 0 5px 0;
+  display: block;
+  width: 240px;
+  height: auto;
+}
+
+/* Note: Remove default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/*
+ * Carousel:  Start
+ * Note: affix blade top */
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+  min-height:250px;
+}
+/* Note: Carasol Image fix */
+.itlinkCarouselImg img {
+  width: auto;
+  height: 325px;
+  max-height: 325px;
+}
+/* Note: Hide the carousel less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+/** Carousel: End  */
+
+/*
+ * Carousel: End
+ * Note: Transparent footer */
+footer {
+  opacity: 1;
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px;
+  position: fixed;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+  color:red;
+}
+/*
+ * padding after affix */
+.view-container-pad-t{
+  padding-top: 60px;
+}
+
+.fa-blue{
+  color:deepskyblue;
+}
+/*
+ * Payments  */
+.db-bk-color-one {
+  background-color: #f55039;
+}
+.db-bk-color-two {
+  background-color: #52E89E;
+}
+.db-bk-color-three {
+  background-color: #47887E;
+}
+.db-padding-btm {
+  padding-bottom: 50px;
+}
+.db-button-color-square {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.60);
+  border: none;
+  border-radius: 0px;
+}
+.db-button-color-square:hover {
+  color: #fff;
+  border: none;
+}
+.db-pricing-eleven {
+  margin-bottom: 30px;
+  margin-top: 50px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  color: #fff;
+  line-height: 30px;
+}
+.db-pricing-eleven ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  padding-left: 0px;
+}
+.db-pricing-eleven ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.db-pricing-eleven ul li i {
+  margin-right: 5px;
+}
+.db-pricing-eleven .price {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px 20px 20px 20px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.db-pricing-eleven .price small {
+  color: #B8B8B8;
+  display: block;
+  font-size: 15px;
+  margin-top: 22px;
+}
+.db-pricing-eleven .type {
+  background-color: deepskyblue; /* #52E89E; #F59B24 */
+  padding: 40px 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.db-pricing-eleven .pricing-footer {
+  padding: 10px;
+}
+.db-pricing-eleven.popular .price {
+  padding-top: 50px;
+}
+.db-paypal-sm-btn{
+  padding-top: 5px;
+}
